@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="About the solution" android:icon="@drawable/brief_icon" android:id="@+id/brief"/>
+<!--    <item android:title="Who are we" android:icon="@drawable/about_us_icon" android:id="@+id/aboutus"/>-->
+</menu>

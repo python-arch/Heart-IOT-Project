@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Heart rate</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_aboutus">
+        Hello , I am Engineer,  and I am working on providing IOT solutions for medical health challenges this one of our samples working on fully connected IOT solution
+    </string>
+    <string name="txt_brief">
+
+A heart rate monitoring application is a software tool designed to track and analyze a users heart rate in real-time. This type of application is commonly used for health and fitness purposes, as well as for medical monitoring under certain circumstances.
+    </string>
+</resources>

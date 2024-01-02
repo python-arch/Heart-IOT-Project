@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="16dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="5dp"
+    app:cardBackgroundColor="#f6f6f6f6"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:paddingBottom="4dp">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/icon_list"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="6dp"
+            app:lottie_rawRes="@raw/list_icon" />
+
+        <TextView
+            android:id="@+id/title_gaslevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/msemibold"
+            android:text="Title text" />
+
+        <TextView
+            android:id="@+id/title_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/msemibold"
+            android:text="Title text" />
+
+        <TextView
+            android:id="@+id/detail_temp"
+            android:autoSizeMaxTextSize="11dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/mlight"
+            android:text="Detail text" />
+
+        <TextView
+            android:id="@+id/title_hum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/msemibold"
+            android:text="Title text" />
+
+        <TextView
+            android:id="@+id/detail_hum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/mlight"
+            android:text="Detail text" />
+
+        <TextView
+            android:id="@+id/detail_gas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/mlight"
+            android:text="Detail text" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="65dp"
+            android:fontFamily="@font/mmedium"
+            android:text="time" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

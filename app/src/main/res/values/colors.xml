@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#5482FC</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="blueOrigin">#FF5C5C</color>
+    <color name="blueSecond">#FFF</color>
+    <color name="blueSoft">#EAEFF9</color>
+    <color name="silver">#D3D3D3D3</color>
+    <color name="white">#fff</color>
+    <color name="bluechart">#55aaff</color>
+    <color name="shadeg">#C85250</color>
+
+
+
+
+    <color name="blue">#459DE4</color>
+    <color name="red">#FF0000</color>
+
+
+</resources>

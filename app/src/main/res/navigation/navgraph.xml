@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/brief">
+
+    <fragment
+        android:id="@+id/brief"
+        android:name="com.example.nourproject.aboutusandbreif.Brief"
+        android:label="fragment_brief"
+        tools:layout="@layout/fragment_brief" >
+<!--        <action-->
+<!--            android:id="@+id/action_brief_to_aboutus"-->
+<!--            app:destination="@id/aboutus"-->
+<!--            app:enterAnim="@android:anim/accelerate_interpolator"-->
+<!--            app:exitAnim="@android:anim/anticipate_interpolator" />-->
+    </fragment>
+<!--    <fragment-->
+<!--            android:id="@+id/aboutus"-->
+<!--        android:name="com.example.nourproject.aboutusandbreif.Aboutus"-->
+<!--        android:label="fragment_aboutus"-->
+<!--        tools:layout="@layout/fragment_aboutus" >-->
+<!--        <action-->
+<!--            android:id="@+id/action_aboutus_to_brief"-->
+<!--            app:destination="@id/brief"-->
+<!--            app:enterAnim="@android:anim/slide_in_left"-->
+<!--            app:exitAnim="@android:anim/slide_out_right" />-->
+<!--    </fragment>-->
+</navigation>
